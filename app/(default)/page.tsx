@@ -9,6 +9,7 @@ import Workflows from "@/components/workflows";
 import Features from "@/components/features";
 import Testimonials from "@/components/testimonials";
 import Cta from "@/components/cta";
+import Teams from "@/components/teams";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Workflows />
       <Features />
+      <Teams />
       {/* <Testimonials /> */}
       <Cta />
     </>
