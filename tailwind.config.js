@@ -47,4 +47,5 @@ module.exports = {
     },
   },
   plugins: [require("@tailwindcss/forms")],
+  darkMode: "class", // this selector mean, based upon the sepecific selector change the dark and light theme
 };

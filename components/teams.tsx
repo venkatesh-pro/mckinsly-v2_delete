@@ -40,16 +40,33 @@ export default function Teams() {
                 Advanced...Everything
               </span>
             </div> */}
-            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+            <h2
+              className="animate-[gradient_6s_linear_infinite] 
+  dark:bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] 
+  bg-[linear-gradient(to_right,theme(colors.indigo.200),theme(colors.indigo.900),theme(colors.indigo.700),theme(colors.indigo.600),theme(colors.gray.800))] 
+  bg-[length:200%_auto] 
+  bg-clip-text 
+  pb-5 
+  font-nacelle 
+  text-3xl 
+  font-semibold 
+  text-transparent 
+  md:text-4xl"
+            >
               Who’s behind McKinsly?
             </h2>
-            <p className="text-lg text-indigo-200/65">
-              <span className="text-white">OpenStatus </span>
+            <p className="text-lg dark:text-indigo-200/65 text-indigo-600/65">
+              <span className="dark:text-white text-indigo-900/80">
+                OpenStatus{" "}
+              </span>
               is on a mission to provide a{" "}
-              <span className="text-white">reliable </span>,
-              <span className="text-white">easy </span> and{" "}
-              <span className="text-white">fast </span> way to synthetically
-              monitor your APIs and websites.
+              <span className="dark:text-white text-indigo-900/80">
+                reliable{" "}
+              </span>
+              ,<span className="dark:text-white text-indigo-900/80">easy </span>{" "}
+              and{" "}
+              <span className="dark:text-white text-indigo-900/80">fast </span>{" "}
+              way to synthetically monitor your APIs and websites.
             </p>
           </div>
           {/* Team Members */}
@@ -66,10 +83,12 @@ export default function Teams() {
               </div>
               <div className="flex justify-between items-center">
                 <div>
-                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 font-semibold text-gray-200">
+                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 font-semibold dark:text-gray-200 text-gray-800">
                     Maximilian Kaske
                   </h3>
-                  <p className="text-indigo-200/65">Pilsner Advocate</p>
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65">
+                    Pilsner Advocate
+                  </p>
                 </div>
                 <div>
                   <a
@@ -111,10 +130,12 @@ export default function Teams() {
               </div>
               <div className="flex justify-between items-center">
                 <div>
-                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 font-semibold text-gray-200">
+                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 font-semibold dark:text-gray-200 text-gray-800">
                     Thibault Le Ouay Ducasse{" "}
                   </h3>
-                  <p className="text-indigo-200/65">Gose Lover</p>
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65">
+                    Gose Lover
+                  </p>
                 </div>
 
                 <div>
@@ -157,10 +178,12 @@ export default function Teams() {
               </div>
               <div className="flex justify-between items-center">
                 <div>
-                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 font-semibold text-gray-200">
+                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 font-semibold dark:text-gray-200 text-gray-800">
                     Thibault Le Ouay Ducasse{" "}
                   </h3>
-                  <p className="text-indigo-200/65">Gose Lover</p>
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65">
+                    Gose Lover
+                  </p>
                 </div>
 
                 <div>
@@ -203,10 +226,12 @@ export default function Teams() {
               </div>
               <div className="flex justify-between items-center">
                 <div>
-                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 font-semibold text-gray-200">
+                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 font-semibold dark:text-gray-200 text-gray-800">
                     Thibault Le Ouay Ducasse{" "}
                   </h3>
-                  <p className="text-indigo-200/65">Gose Lover</p>
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65">
+                    Gose Lover
+                  </p>
                 </div>
 
                 <div>
@@ -242,37 +267,37 @@ export default function Teams() {
           {/* story section */}
           <div className="flex items-center justify-center mt-[80px]">
             <div>
-              <div className="p-10 border-[1px] max-w-[836px] rounded-md border-white">
+              <div className="p-10 dark:border-[1px] border-2 max-w-[836px] rounded-md dark:border-white">
                 <div>
-                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 text-xl font-semibold text-gray-200">
+                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 text-xl font-semibold dark:text-gray-200 text-gray-800">
                     Our Story 📜
                   </h3>
-                  <p className="text-indigo-200/65">
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65">
                     We met on Twitter in 2023, after couple of months of DM. We
                     started to work on OpenStatus and were driven by these
                     goals:
                   </p>
-                  <p className="text-indigo-200/65 ml-8 mt-3">
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65 ml-8 mt-3">
                     Build something useful for other developers 🧑
                   </p>
-                  <p className="text-indigo-200/65 ml-8 ">
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65 ml-8 ">
                     A real-world project with all the latest hot technologies 🌶{" "}
                   </p>
-                  <p className="text-indigo-200/65 ml-8 ">Be Open-Source 📖 </p>
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65 ml-8 ">Be Open-Source 📖 </p>
                 </div>
 
                 <div className="mt-9">
-                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 text-xl font-semibold text-gray-200">
+                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 text-xl font-semibold dark:text-gray-200 text-gray-800">
                     Our values
                   </h3>
-                  <p className="text-indigo-200/65">
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65">
                     We are a small team of 2 people, we are a small company. We
                     are not a VC funded startup. We are not looking for
                     investors. We want to keep our freedom and build a
                     substainable business while working on features that
                     provides the best value to our users.
                   </p>
-                  <p className="text-indigo-200/65 mt-3">
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65 mt-3">
                     We also want to be transparent about our business. We are
                     not going to hide our ups and downs. We are going to share
                     our journey with you.{" "}
@@ -280,17 +305,17 @@ export default function Teams() {
                 </div>
 
                 <div className="mt-9">
-                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 text-xl font-semibold text-gray-200">
+                  <h3 className="mb-1 font-nacelle text-[1rem] mt-2 text-xl font-semibold dark:text-gray-200 text-gray-800">
                     Our mission 🚀
                   </h3>
-                  <p className="text-indigo-200/65">
+                  <p className="dark:text-indigo-200/65 text-indigo-700/65">
                     We want to make the web faster and more reliable for
                     everyone, wherever they are in the world. To achieve this,
                     we are building a platform that helps developers monitor
                     their websites and APIs.
                   </p>
                   <div className="flex items-center">
-                    <p className="text-indigo-200/65 mt-3">
+                    <p className="dark:text-indigo-200/65 text-indigo-700/65 mt-3">
                       We are here to fight Us-East-1 privilege.
                     </p>
                     <p className="mt-1 text-2xl">⚔</p>

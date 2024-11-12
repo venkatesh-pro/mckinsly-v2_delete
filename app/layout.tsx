@@ -5,6 +5,7 @@ import localFont from "next/font/local";
 
 import Header from "@/components/ui/header";
 import Script from "next/script";
+import App from "./App";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -88,7 +89,7 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-KPJ3KWRN');
           `}
         </Script>
-        
+
         {/* Mailchimp */}
         <Script
           id="mcjs"
@@ -99,10 +100,9 @@ export default function RootLayout({
             }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/82818050eeddf6789f84ab7d6/3f74ce28cd94d5a4db7158349.js");`,
           }}
         />
-
       </head>
       <body
-        className={`${inter.variable} ${nacelle.variable} bg-gray-950 font-inter text-base text-gray-200 antialiased`}
+        className={`${inter.variable} ${nacelle.variable} `}
       >
         {/* Google Tag Manager (noscript) */}
         <noscript>
@@ -113,11 +113,7 @@ export default function RootLayout({
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-
-        <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
-          <Header />
-          {children}
-        </div>
+        <App children={children}></App>
       </body>
     </html>
   );
